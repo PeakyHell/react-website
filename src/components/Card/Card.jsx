@@ -4,8 +4,8 @@ function Card(props) {
     return (
         <div className={styles.card}>
             <img className={styles.cardImage} src={props.imgSrc} alt="Profile picture" />
-            <h2 className={styles.cardTitle}>PeakyHell</h2>
-            <p className={styles.cardText}>I'm a computer science student at UCLouvain.</p>
+            <h2 className={styles.cardTitle}>{props.title}</h2>
+            <p className={styles.cardText}>{props.text}</p>
         </div>
     );
 }

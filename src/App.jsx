@@ -1,13 +1,11 @@
-import Card from './components/Card/Card.jsx';
+import Card from './components/Card/Card.jsx'
 
 function App() {
   return(
     <>
-      <h1>Hello, World</h1>
-      <h2>This is my React website</h2>
-      <Card imgSrc="https://via.placeholder.com/150"/>
-      <Card imgSrc="https://via.placeholder.com/150"/>
-      <Card imgSrc="https://via.placeholder.com/150"/>
+      <Card imgSrc="https://via.placeholder.com/150" title="PeakyHell" text="Hello, World!"/>
+      <Card imgSrc="https://via.placeholder.com/150" title="Bernard" text="Je m'appelle Bernard"/>
+      <Card imgSrc="https://via.placeholder.com/150" title="Paul" text="Je m'appelle Paul"/>
     </>
   );
 }
